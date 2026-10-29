@@ -1,0 +1,8 @@
+* text=auto eol=lf
+research-policy.txt -text
+*.png binary
+*.pdf binary
+
+# Preserve exact scientific evidence bytes across Git publication.
+cycles/** -text
+site/** -text

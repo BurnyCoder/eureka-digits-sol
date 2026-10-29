@@ -1,0 +1,16 @@
+[project]
+name = "eureka-digits-sol"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = ["numpy==2.5.4", "scipy==1.18.1", "scikit-learn==1.9.1", "torch==2.14.1", "safetensors==0.8.0", "matplotlib==3.11.2"]
+
+[project.optional-dependencies]
+cuda = ["torch==2.14.1"]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu130", extra = "cuda" }]
