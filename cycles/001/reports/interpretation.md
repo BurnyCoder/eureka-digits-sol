@@ -1,5 +1,7 @@
 # Interpretation of the fixed digits replication
 
+Subsequent parent verification, renderer repairs and the lockfile correction are disclosed in [the parent review](https://github.com/BurnyCoder/eureka-digits-sol/blob/main/reports/parent-review.md). Fresh-clone checkpoint inference, final PDF inspection and deployed browser checks occurred after the model's recorded phases; the original analysis below describes its earlier evidence scope.
+
 Author: Libor “Burny” Burian. Stage: distillation. Analysis kind: **exploratory**. The engineering objective is verified completion with reproducible artifacts regardless of scientific effect direction. Known prior outcomes prevent new confirmation on untouched data. This report interprets preserved measurements; no training, test-selected tuning or new predictive evaluation was performed in analysis.
 
 ## Motivation, context and claims

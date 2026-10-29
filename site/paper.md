@@ -36,11 +36,11 @@ The objective is reproducible evidence and an inspectable research process. This
 - **analysis_plan**: "Use 10000 paired bootstrap resamples of test example indices with RNG seed 2026, preserving pairing across methods and all trained seeds. This interval conditions on the trained models and does not estimate training-population uncertainty. Separately show each seed effect and its sample standard deviation. Treat other comparisons as descriptive, with no post-hoc primary selection."
 - **hyperparameter_rationale**: "Small prespecified network and fixed training budget provide fast feedback on an established task. The three decay values are a descriptive local sensitivity check, not a test-selected sweep. Three seeds expose limited initialization sensitivity; they do not support broad population claims."
 
-![Research architecture](figures/architecture.png)
+![Research architecture](https://raw.githubusercontent.com/BurnyCoder/eureka-digits-sol/main/cycles/001/figures/architecture.png)
 
 *Research architecture.*
 
-![Registered model architecture](figures/model-architecture.png)
+![Registered model architecture](https://raw.githubusercontent.com/BurnyCoder/eureka-digits-sol/main/cycles/001/figures/model-architecture.png)
 
 *Registered model architecture.*
 
@@ -66,15 +66,15 @@ The objective is reproducible evidence and an inspectable research process. This
 
 The mean paired accuracy difference is 0.000000, with conditional 95% bootstrap interval [0.000000, 0.000000]. The registered decision is **inconclusive**. The sample standard deviation across seed effects is 0.000000. The interval uses 10000 paired resamples of test examples and conditions on the trained models.
 
-![All recorded accuracies](figures/accuracy.png)
+![All recorded accuracies](https://raw.githubusercontent.com/BurnyCoder/eureka-digits-sol/main/cycles/001/figures/accuracy.png)
 
 *All recorded accuracies.*
 
-![Recorded learning curves](figures/loss.png)
+![Recorded learning curves](https://raw.githubusercontent.com/BurnyCoder/eureka-digits-sol/main/cycles/001/figures/loss.png)
 
 *Recorded learning curves.*
 
-![First saved test examples; no correctness-based selection](figures/examples.png)
+![First saved test examples; no correctness-based selection](https://raw.githubusercontent.com/BurnyCoder/eureka-digits-sol/main/cycles/001/figures/examples.png)
 
 *First saved test examples; no correctness-based selection.*
 
@@ -88,6 +88,8 @@ The mean paired accuracy difference is 0.000000, with conditional 95% bootstrap 
 # Discussion, implications, and learnings
 
 # Interpretation of the fixed digits replication
+
+Subsequent parent verification, renderer repairs and the lockfile correction are disclosed in [the parent review](https://github.com/BurnyCoder/eureka-digits-sol/blob/main/reports/parent-review.md). Fresh-clone checkpoint inference, final PDF inspection and deployed browser checks occurred after the model's recorded phases; the original analysis below describes its earlier evidence scope.
 
 Author: Libor “Burny” Burian. Stage: distillation. Analysis kind: **exploratory**. The engineering objective is verified completion with reproducible artifacts regardless of scientific effect direction. Known prior outcomes prevent new confirmation on untouched data. This report interprets preserved measurements; no training, test-selected tuning or new predictive evaluation was performed in analysis.
 
@@ -198,7 +200,6 @@ Timestamped fitting logs and full negative-control results remain preserved. The
 
 Writing exposed no substantive error requiring a return to training or protocol amendment. It sharpened the distinction between changed weights, unchanged correctness and conditional uncertainty. The useful next action is controller review of these bounded claims and the requirements map, preserving all negative findings. Further fitting after observing the test tie would answer a new question and has low information value for the authorized handoff. This moves from exploration through understanding to distillation, with a return justified only by a concrete evidence gap. [src-nanda-process](https://www.alignmentforum.org/posts/hjMy4ZxS5ogA9cTYK/how-i-think-about-my-research-process-explore-understand).
 
-
 # Limitations
 
 - Conditional test-example intervals do not estimate variation over new training seeds, writers, or datasets.
@@ -236,7 +237,7 @@ The mean paired accuracy difference is 0.000000, with conditional 95% bootstrap 
 
 # Appendix: reproducibility and provenance
 
-The committed protocol, per-experiment JSON files, saved predictions, loss histories, and checkpoints are the source of all numerical tables and figures. Rebuild using `eureka render`. See `docs/reproduction.md` for execution commands and environment details.
+The committed protocol, per-experiment JSON files, saved predictions, loss histories, and checkpoints are the source of all numerical tables and figures. Rebuild using `eureka render`. See [the reproduction guide](https://github.com/BurnyCoder/eureka-digits-sol/blob/main/cycles/001/docs/reproduction.md) for execution commands and environment details.
 
 # AI statement
 

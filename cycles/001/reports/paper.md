@@ -89,6 +89,8 @@ The mean paired accuracy difference is 0.000000, with conditional 95% bootstrap 
 
 # Interpretation of the fixed digits replication
 
+Subsequent parent verification, renderer repairs and the lockfile correction are disclosed in [the parent review](https://github.com/BurnyCoder/eureka-digits-sol/blob/main/reports/parent-review.md). Fresh-clone checkpoint inference, final PDF inspection and deployed browser checks occurred after the model's recorded phases; the original analysis below describes its earlier evidence scope.
+
 Author: Libor “Burny” Burian. Stage: distillation. Analysis kind: **exploratory**. The engineering objective is verified completion with reproducible artifacts regardless of scientific effect direction. Known prior outcomes prevent new confirmation on untouched data. This report interprets preserved measurements; no training, test-selected tuning or new predictive evaluation was performed in analysis.
 
 ## Motivation, context and claims
@@ -198,7 +200,6 @@ Timestamped fitting logs and full negative-control results remain preserved. The
 
 Writing exposed no substantive error requiring a return to training or protocol amendment. It sharpened the distinction between changed weights, unchanged correctness and conditional uncertainty. The useful next action is controller review of these bounded claims and the requirements map, preserving all negative findings. Further fitting after observing the test tie would answer a new question and has low information value for the authorized handoff. This moves from exploration through understanding to distillation, with a return justified only by a concrete evidence gap. [src-nanda-process](https://www.alignmentforum.org/posts/hjMy4ZxS5ogA9cTYK/how-i-think-about-my-research-process-explore-understand).
 
-
 # Limitations
 
 - Conditional test-example intervals do not estimate variation over new training seeds, writers, or datasets.
@@ -236,7 +237,7 @@ The mean paired accuracy difference is 0.000000, with conditional 95% bootstrap 
 
 # Appendix: reproducibility and provenance
 
-The committed protocol, per-experiment JSON files, saved predictions, loss histories, and checkpoints are the source of all numerical tables and figures. Rebuild using `eureka render`. See `docs/reproduction.md` for execution commands and environment details.
+The committed protocol, per-experiment JSON files, saved predictions, loss histories, and checkpoints are the source of all numerical tables and figures. Rebuild using `eureka render`. See [the reproduction guide](https://github.com/BurnyCoder/eureka-digits-sol/blob/main/cycles/001/docs/reproduction.md) for execution commands and environment details.
 
 # AI statement
 

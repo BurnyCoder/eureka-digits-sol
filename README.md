@@ -6,6 +6,8 @@ The observed primary accuracy contrast tied, so the registered conditional analy
 
 The workflow records predictions and alternatives, preserves failures, and distills a few supported claims following [Neel Nanda's research-process guidance](https://www.alignmentforum.org/s/5GT3yoYM9gRmMEKqL). The controller owns publication; presentation repairs reuse valid measurements.
 
+[Parent verification](reports/parent-review.md) records the later fresh-clone, checkpoint, PDF and deployed-browser checks, the earlier controller repair and the lockfile documentation correction. The [reproduction guide](cycles/001/docs/reproduction.md#publication-handoff-and-non-fitting-checks) provides a single command for rebuilding the additional numerical reports and presentation without training.
+
 
 The supplied implementation uses a fixed MLP with AdamW, a zero-decay ablation, a smaller-decay sensitivity arm, shuffled-label control, logistic baseline and majority-class baseline. Source research is in [the literature review](cycles/001/reports/research.md); all scientific settings and interpretation rules are in [the prospective exploratory plan](cycles/001/reports/preregistration.md).
 
