@@ -107,6 +107,12 @@ Before interpreting later results, recompute accuracies, align test labels and I
 
 ## Publication handoff and non-fitting checks
 
-The controller's `eureka render` regenerates its result-derived tables, figures, summary, paper and site; the controller also handles model cards, commits, Pages deployment and model uploads. After regeneration it must reapply the presentation postprocessor described above to retain the reviewed links, settings and example attribution. Local artifact completeness does not establish successful remote publication. Historical generated status blocks describe their recorded cutoff and are not rewritten as accepted completion by the agent.
+The controller's `eureka render` regenerates its result-derived tables, figures, summary, paper and site; the controller also handles model cards, commits, Pages deployment and model uploads. The current shared renderer preserves example provenance and the reproduction-guide link. To rebuild this project's additional pilot, comparison and final numerical tables and its presentation in one command, install the harness environment and run the following from the harness checkout:
+
+```powershell
+uv run --extra research --extra cuda python PATH/TO/eureka-digits-sol/regenerate.py
+```
+
+The wrapper calls the existing builders, verifies saved checkpoints without fitting, renders the shared artifacts and reapplies the project's presentation postprocessor. Replace the path with this clone's actual location. Pandoc and pdfLaTeX must be available. This does not rerun a coding model or rewrite historical audit receipts. Local artifact completeness does not establish successful remote publication; later public checks are documented in [the parent review](../../../reports/parent-review.md).
 
 From the cycle directory, `& $digitsPython reports/audit_publish.py` regenerates the final report's numerical table directly from saved results and checks the protected review hashes, registered summary, claim/source references, requirement paths and local publication links without fitting. It preserves its first audit. The [final report](../reports/final.md) distinguishes these local observations from pending controller actions and browser/deployment checks.

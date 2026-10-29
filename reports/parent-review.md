@@ -1,0 +1,13 @@
+# Parent verification after the recorded Sol run
+
+This work occurred after the model's completed workflow and outside its active clock. No additional model call, training, configuration selection or scientific result was introduced. The controller's earlier core-audit overwrite and exact-hash recovery remain disclosed in [the recovery receipt](core-evidence-recovery.json) and [retained failure snapshot](core-finalization-failure-c72f3a5b3d76.json).
+
+The parent installed the public project's own lockfile in a fresh local environment. Downloaded Hugging Face checkpoints reproduce the saved predictions and labels on CPU; arithmetic regeneration and public phase checks pass. This is inference reproduction from existing trained weights, not an independent retraining or proof of cross-platform identity. The model's original reports accurately describe the checks it had performed before this later verification.
+
+The core report incorrectly said transitive resolution was not fully locked. The repository already supplied `uv.lock`; the statement is corrected. Actual portability remains limited by supported wheels and hardware. An optional `.env.example` documents the selected model and total budget.
+
+The parent incorporated Sol's example provenance labels and the cycle reproduction-guide link into the shared harness renderer. The authored interpretation already preserves the repaired long-table layout, portable citations and complete frozen settings. `regenerate.py` composes the existing pilot/comparison/final numerical builders with the harness renderer and presentation postprocessor in one command. Historical audit receipts are preserved instead of relabeled as fresh checks; its numerical builders reuse saved observations and checkpoints without fitting.
+
+The parent separately inspected the final PDF and exercised the deployed explorer's combined filters, empty intersection and reset. Verification receipts are published with the [harness acceptance audit](https://github.com/BurnyCoder/auto-eureka-scientist-agent-harness/blob/main/reports/final-checks.md). Browser inspection of the deployed page is separate from Sol's earlier DOM-adapter probe and failed browser connection. No broad accessibility, scientific-validity or agent-superiority claim follows.
+
+The original fixture, registered protocol, result records and checkpoint contents remain unchanged. The model's bounded claims required no further scientific correction in this parent pass. The shared [research collection](https://huggingface.co/collections/BurnyCoder/auto-eureka-scientist-6ae3ae37b267f00aef999f75) contains this project's model bundle alongside the other development executions.
