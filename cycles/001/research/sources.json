@@ -1,5 +1,21 @@
 [
   {
+    "id": "src-python-unittest",
+    "title": "Python 3.14 unittest: discovery, assertions and isolated fixtures",
+    "url": "https://docs.python.org/3.14/library/unittest.html",
+    "summary": "Read test discovery and TestCase guidance for the non-training core regression suite. Tests use temporary roots and mocks to avoid writing synthetic records into study results. No external implementation was copied.",
+    "license": "unknown (documentation; no source implementation copied)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-python-subprocess",
+    "title": "Python 3.14 subprocess: argv sequences, pipes and process status",
+    "url": "https://docs.python.org/3.14/library/subprocess.html",
+    "summary": "Read argument-array, Popen context manager, merged stderr/stdout and exit-status documentation. Supports the small no-shell streaming runner. Text mode normalizes line endings; logs preserve complete textual output rather than byte-identical terminal streams. No external implementation was copied.",
+    "license": "unknown (documentation; no source implementation copied)",
+    "accessed_at": "2026-10-29"
+  },
+  {
     "id": "src-adamw-paper",
     "title": "Decoupled Weight Decay Regularization — Loshchilov and Hutter, ICLR 2019",
     "url": "https://arxiv.org/abs/1711.05101",

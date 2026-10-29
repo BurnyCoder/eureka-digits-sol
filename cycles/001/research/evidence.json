@@ -5,5 +5,12 @@
     "sha256": "a16454eb60949757d367bb81811a539d026eefa940575476e732e4c73cfe9358",
     "analysis_kind": "exploratory",
     "original_path": "cycles/001/study.py"
+  },
+  {
+    "id": "audit-core-checks",
+    "path": "cycles/001/research/evidence-snapshots/8106e18b577721025dbec09e32d09e359826e0b9067e6a104113c7b38e228297.json",
+    "sha256": "8106e18b577721025dbec09e32d09e359826e0b9067e6a104113c7b38e228297",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/core-checks.json"
   }
 ]
