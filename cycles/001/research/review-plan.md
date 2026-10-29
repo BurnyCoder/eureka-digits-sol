@@ -1,0 +1,9 @@
+# Review plan
+
+Stage: distillation. Analysis kind: exploratory. Existing outcomes are known.
+
+Project goal: verified completion of the supplied engineering replication. Subgoal: one substantive review of scientific validity, code, citations, reproducibility, security and presentation. Immediate objective: test documented non-fitting commands and inspect the generated paper and website. Expected learning: whether concrete defects change the narrow interpretation or prevent use of artifacts. Estimated effort: twenty minutes; reuse accepted measurements and cheap audits to avoid the cost and scientific ambiguity of refitting.
+
+Before review checks, predict that frozen fixture/protocol bytes, existing checkpoints and paired summaries agree with accepted evidence; a mismatch favors drift or an ordinary bug. Predict that documented checks pass and generated links resolve; failure favors packaging/documentation defects. Predict that the PDF is readable and website filters change displayed rows and examples; failure favors presentation defects rather than a scientific effect. Equal primary correctness must yield a degenerate conditional interval without implying equivalence. Competing alternatives include stale generated outputs, broken relative links, missing configuration details, checkpoint duplication, leakage and unsupported generalization. Sources: src-nanda-process, src-bootstrap, src-torch-adamw, src-digits-loader.
+
+Run the official check, unit tests and non-fitting artifact audit; inspect paper rendering and website controls if available. Preserve original scientific records and failures. Fix reviewable presentation/docs defects locally; report unresolved evidence gaps and revisit an earlier phase only if they undermine required scientific claims. Publication remains controller-owned.

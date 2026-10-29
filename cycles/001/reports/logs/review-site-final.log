@@ -1,0 +1,1 @@
+{"analysis_kind":"exploratory","environment":"Node vm with minimal DOM/canvas adapter; no browser rendering","passed":{"counts":{"all":15,"id":1,"method":1,"seed":7,"split":14,"outcome":15,"conflicting_filters":0,"reset":15},"examples_identify_run":true},"error_path":{"fetch_error_displayed":true}}

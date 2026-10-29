@@ -142,5 +142,21 @@
     "summary": "Read raw primary disclosure. Line-ending conversion and regenerated documents invalidated accepted hashes; historical bytes were recovered. Documents controller repairs separately from autonomous work and warns against provider rankings. Raw read: https://raw.githubusercontent.com/BurnyCoder/eureka-digits-luna/main/reports/post-run-publication.md .",
     "license": "MIT (repository)",
     "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-pandoc",
+    "title": "Pandoc User Guide: PDF creation, Markdown extensions and resource paths",
+    "url": "https://pandoc.org/MANUAL.html",
+    "summary": "Consulted PDF engine, resource-path and implicit-figure behavior for the derived presentation postprocessor. No external implementation copied.",
+    "license": "unknown (documentation; no implementation copied)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-node-vm",
+    "title": "Node.js vm API",
+    "url": "https://nodejs.org/api/vm.html",
+    "summary": "Consulted runInNewContext for the actual inline-script logic probe. The minimal DOM adapter does not test browser rendering; vm is not a security sandbox. No external implementation copied.",
+    "license": "unknown (documentation; no implementation copied)",
+    "accessed_at": "2026-10-29"
   }
 ]

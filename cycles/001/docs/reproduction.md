@@ -1,6 +1,8 @@
 # Reproducing the fixed digits study
 
-This is an **exploratory engineering replication** of a supplied study, not new confirmation on untouched data. Prior outcomes are known. The question is whether the registered AdamW decay intervention changes accuracy in this fixed setting. Source research and prior-run disclosures are in [research.md](../reports/research.md); the prospective interpretation rules are in [preregistration.md](../reports/preregistration.md). No local training or predictive performance is reported during core.
+The [review report](../reports/review.md) records the final scoped code, science, citation, reproduction and presentation review. After controller regeneration, run `& $digitsPython reports/repair_presentation.py` from the cycle directory to reapply portable paper links, the protocol-derived settings supplement and website example attribution. This uses installed Pandoc and pdfLaTeX and never fits models or changes measurements. Then run `& $digitsPython reports/audit_review.py` and `node reports/test_site.cjs` for the documented non-fitting checks. The Node test uses a minimal DOM adapter; it is not a browser or visual layout test.
+
+This is an **exploratory engineering replication** of a supplied study, not new confirmation on untouched data. Prior outcomes are known. The question is whether the registered AdamW decay intervention changes accuracy in this fixed setting. Source research and prior-run disclosures are in [research.md](../reports/research.md); the prospective interpretation rules are in [preregistration.md](../reports/preregistration.md). Training, comparisons, analysis and review have local artifacts; the [final report](../reports/final.md) reconciles their outcomes and residual limits. Final publication and phase acceptance remain controller-owned.
 
 ## Code and scientific contract
 
@@ -55,9 +57,9 @@ The [tests](../tests/test_study.py) verify real bundled-data coverage, unique/di
 
 No test runs an optimizer step or fits a baseline. Synthetic mock records live only in temporary directories and are not study experiments. Passing these checks cannot validate training dynamics, later checkpoint reuse, trained-model accuracy, statistical power or all leakage classes. The initial expected missing-wrapper failure and subsequent actual results are preserved in [core-checks.json](../research/core-checks.json); the predictions precede testing in [core-plan.md](../research/core-plan.md). The [core report](../reports/core.md) compares predictions with observations and records the implementation review.
 
-## Later commands and controller boundaries
+## Training reproduction order and controller boundaries
 
-These commands describe reproduction order; they are **not executed in core**:
+These commands describe the completed training phases' reproduction order. Do not rerun fitting to repair documentation; reuse valid saved measurements:
 
 ```powershell
 # Pilot phase, after the controller publishes core:
@@ -84,9 +86,11 @@ Exact architecture, decay coefficients, training budget, seed set and logistic s
 
 Data come from the scikit-learn bundled UCI digits subset, not MNIST. Normalization uses a known constant without fitted statistics. The frozen split is stratified by class and randomized by example; it cannot establish new-writer generalization. Label permutation applies only to training labels. [src-digits-loader](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html), [src-splits](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html), [src-uci-digits](https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits).
 
-The primary comparison averages paired test-accuracy differences across the registered seeds. Later analysis must use matched example-bootstrap indices shared across both methods and every fitted seed, the registered RNG and resample count, and central percentile endpoints. This interval conditions on the fitted models; report seed variation separately. A zero-spanning interval is inconclusive, including a degenerate zero interval. A wholly negative interval contradicts the directional benefit prediction. The initial validation result is now documented in [pilot.md](../reports/pilot.md); no comparative result or primary interval exists yet. The fixture emits raw results but does not implement the later aggregate analysis. [src-bootstrap](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html); [preregistered analysis](../reports/preregistration.md#primary-metric-analysis-plan-and-falsification).
+The primary comparison averages paired test-accuracy differences across the registered seeds. Analysis uses matched example-bootstrap indices shared across both methods and every fitted seed, the registered RNG and resample count, and central percentile endpoints. This interval conditions on the fitted models; seed variation is reported separately. A zero-spanning interval is inconclusive, including a degenerate zero interval. A wholly negative interval contradicts the directional benefit prediction. The initial validation result is documented in [pilot.md](../reports/pilot.md); all comparisons and their primary interval are now in [experiments.md](../reports/experiments.md). The fixture emits raw results; `reports/compare_artifacts.py` implements the paired statistic. [src-bootstrap](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html); [preregistered analysis](../reports/preregistration.md#primary-metric-analysis-plan-and-falsification).
 
 Regenerate the pilot table and loss plot, and rerun its validation-only artifact audit without fitting, using `reports/build_pilot.py` with the supplied interpreter from the cycle directory. The first audit remains preserved in `research/pilot-audit.json`. This script does not run comparisons or test scoring.
+
+Regenerate comparison tables, all-seed loss plots, accuracy points and shared prediction examples using `reports/build_experiments.py` from the cycle directory with the same interpreter. This audits every registered result and checkpoint without fitting and preserves its first audit in `research/experiments-audit.json`. All empirical values in the comparison tables come from saved measurements; the generated `reports/comparison-summary.json` is an aggregate, not another experiment.
 
 ## Artifact map and validity review
 
@@ -100,3 +104,9 @@ Regenerate the pilot table and loss plot, and rerun its validation-only artifact
 | `research/sources.json` | Source IDs used here; added code reuses installed APIs and copies no external implementation |
 
 Before interpreting later results, recompute accuracies, align test labels and IDs, verify split coverage and hashes, and confirm every registered method/seed is present. Inspect convergence warnings and anomalous controls. Preserve the pilot's validation label and its distinction from later test scoring. Generate score tables and figures from saved files in the later analysis phase; never hand-enter empirical scores or count aggregates as experiments. The [research review](../reports/research.md) records source licensing and the distinction between example isolation and writer isolation. The present audit is scoped engineering evidence only.
+
+## Publication handoff and non-fitting checks
+
+The controller's `eureka render` regenerates its result-derived tables, figures, summary, paper and site; the controller also handles model cards, commits, Pages deployment and model uploads. After regeneration it must reapply the presentation postprocessor described above to retain the reviewed links, settings and example attribution. Local artifact completeness does not establish successful remote publication. Historical generated status blocks describe their recorded cutoff and are not rewritten as accepted completion by the agent.
+
+From the cycle directory, `& $digitsPython reports/audit_publish.py` regenerates the final report's numerical table directly from saved results and checks the protected review hashes, registered summary, claim/source references, requirement paths and local publication links without fitting. It preserves its first audit. The [final report](../reports/final.md) distinguishes these local observations from pending controller actions and browser/deployment checks.

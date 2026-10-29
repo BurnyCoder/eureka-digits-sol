@@ -1,0 +1,48 @@
+{
+  "analysis_kind": "exploratory",
+  "at": "2026-10-29T22:06:40.681790+00:00",
+  "pdf_sha256": "344ff4de363aba7c1b82fbbaacf80abc6d979fc2c920ee927ca2a73670d8835d",
+  "site_pdf_sha256": "344ff4de363aba7c1b82fbbaacf80abc6d979fc2c920ee927ca2a73670d8835d",
+  "pdfinfo": "Title:           eureka-digits-sol: reproducible research report\nSubject:         \nKeywords:        \nAuthor:          Libor “Burny” Burian\nCreator:         LaTeX via pandoc\nProducer:        MiKTeX pdfTeX-1.40.28\nCreationDate:    Thu Oct 29 23:04:07 2026 W. Europe Standard Time\nModDate:         Thu Oct 29 23:04:07 2026 W. Europe Standard Time\nCustom Metadata: yes\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           9\nEncrypted:       no\nPage size:       612 x 792 pts (letter)\nPage rot:        0\nFile size:       494427 bytes\nOptimized:       no\nPDF version:     1.5\n",
+  "page_images": {
+    "cycles/001/reports/review-visuals/final-paper-1.png": "9d0cd5a935a9f02b3ce54590bffef96874eb2c43438e68793a1822b87f27d793",
+    "cycles/001/reports/review-visuals/final-paper-2.png": "6a744554ebf9dde32b59379e30410a367853a6a573d50676aad38bebd5bca8bb",
+    "cycles/001/reports/review-visuals/final-paper-3.png": "d3c13e23febd3bcd7e04b27f2828d7d016ae5228768ca135f63f4a4b88045bf8",
+    "cycles/001/reports/review-visuals/final-paper-4.png": "cf66e672ad3ea65046410b1c4c0d46fcd7e74a484106ad8cafca0f78dc16d817",
+    "cycles/001/reports/review-visuals/final-paper-5.png": "61e45b8ab04ef0038606247e8dce89cf3fbc544fb77842ccd259e1d2443f0dda",
+    "cycles/001/reports/review-visuals/final-paper-6.png": "8e2b13baa9c3f0ee67b2aa671b377d62e1ec7702c89e5fe7800eba7067cfb9fe",
+    "cycles/001/reports/review-visuals/final-paper-7.png": "dfa7325d1d306a95ff192dd847cfee312effb2040fca8fd3c2997104f569657e",
+    "cycles/001/reports/review-visuals/final-paper-8.png": "cae9e4539f5c83cfa4efddb55457b639e1091c0656eae6ca69f6767aec045420",
+    "cycles/001/reports/review-visuals/final-paper-9.png": "879448524e6b305c04730902ea83dadab63d673a2a1d193462870ee6e17155b1"
+  },
+  "manual_visual_review": {
+    "performed": true,
+    "method": "Poppler PNGs inspected using view_image; unchanged early pages matched already inspected render bytes",
+    "observed": "Final text, figures, examples and tables readable; no observed clipping or overlap; author and AI statement present"
+  },
+  "website_browser_visual_review": false,
+  "browser_attempts": [
+    "IAB initialization failed: no Codex IAB backends discovered.",
+    "Windows Computer Use stopped because current browser URL could not be determined confidently enough to enforce policy; no further UI automation attempted."
+  ],
+  "website_test_scope": "Actual inline JavaScript executed in Node vm with a minimal DOM/canvas adapter; no browser rendering.",
+  "sources_rechecked": [
+    "src-torch-adamw",
+    "src-digits-loader",
+    "src-bootstrap",
+    "src-adamw-paper",
+    "src-nanda-process"
+  ],
+  "credential_filename_check": {
+    "argv": [
+      "git",
+      "ls-files",
+      "*.env",
+      "*.pem",
+      "*.key",
+      ".eureka/*"
+    ],
+    "output": ""
+  },
+  "render_log": "cycles/001/reports/logs/review-presentation-final.log"
+}
