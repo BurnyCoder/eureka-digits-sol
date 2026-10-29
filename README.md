@@ -35,7 +35,7 @@ Follow [docs/reproduction.md](cycles/001/docs/reproduction.md) for installation,
 <!-- EUREKA:RESULTS:START -->
 ## Recorded results
 
-Recorded harness status: **running**; 7 operational phases accepted. Measurements below do not imply completion of unaccepted phases.
+Recorded harness status: **complete**; 8 operational phases accepted. Measurements below do not imply completion of unaccepted phases.
 
 | Experiment | Method | Seed | Split | Accuracy | Seconds | Device |
 |---|---|---:|---|---:|---:|---|

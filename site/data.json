@@ -210,10 +210,10 @@
     "backend": "codex",
     "requested_model": "gpt-6.1-sol",
     "model_pin": "",
-    "status": "running",
-    "message": "",
+    "status": "complete",
+    "message": "All required phases completed",
     "calls": 8,
-    "active_seconds": 2889.082397600054,
+    "active_seconds": 2926.9063974000164,
     "limits": {
       "minutes": 180.0,
       "calls": 60
@@ -229,7 +229,8 @@
       "pilot",
       "experiments",
       "analysis",
-      "review"
+      "review",
+      "publish"
     ],
     "attempts": [
       {
