@@ -2,155 +2,304 @@
   {
     "id": "policy-01",
     "heading": "Research existing work and cite sources",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/sources.json",
+      "cycles/001/research/retrievals.json",
+      "cycles/001/reports/research.md",
+      "cycles/001/reports/interpretation.md"
+    ],
+    "reason": "Primary-source research and implementation/license inspection are preserved. Analysis revisited the AdamW paper, paired-bootstrap documentation and research-process guidance; interpretation cites source IDs and links. No external implementation was copied."
   },
   {
     "id": "policy-02",
     "heading": "Scientific mindset and role models",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/analysis-plan.md",
+      "cycles/001/research/decisions.jsonl",
+      "cycles/001/reports/highlights.md",
+      "cycles/001/reports/interpretation.md"
+    ],
+    "reason": "The recorded process moves from exploration through understanding to distillation, compares predictions and alternatives with observations, retains anomalies and distinguishes information gathering from confirmation. No substantive gap requiring a return was found in this scoped analysis."
   },
   {
     "id": "policy-03",
     "heading": "Experimental design and statistical rigor",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/protocol.json",
+      "cycles/001/research/registration.json",
+      "cycles/001/reports/preregistration.md",
+      "cycles/001/reports/experiments.md",
+      "cycles/001/reports/interpretation.md"
+    ],
+    "reason": "The prospectively frozen local metric, falsification rule, controls, ablation and sensitivity matrix were preserved. All outcomes and conditional uncertainty are reported. Prior exposure keeps every claim exploratory; seed, writer, power, equivalence and untouched-data limitations are explicit rather than claimed solved."
   },
   {
     "id": "policy-04",
     "heading": "Grounding and technical correctness",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/study.py",
+      "cycles/001/reports/research.md",
+      "cycles/001/reports/compare_artifacts.py",
+      "cycles/001/research/analysis-audit.json"
+    ],
+    "reason": "The preserved fixture was inspected against sources. The existing full artifact audit and registered statistic reproduce; saved label, split, metric, checkpoint, history and provenance checks pass. Both primary arms use AdamW; source inspection and empirical auditing are distinguished. No scientific definitions were changed."
   },
   {
     "id": "policy-05",
     "heading": "Principles",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/analysis-plan.md",
+      "cycles/001/research/claims.json",
+      "cycles/001/reports/interpretation.md"
+    ],
+    "reason": "Analysis reuses existing measurements and audit/statistic functions, links generated measurements and distills a small set of bounded claims. No new fitting, tuned search or redundant experiment ledger was introduced."
   },
   {
     "id": "policy-06",
     "heading": "Code structure and quality",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/study.py",
+      "cycles/001/run_study.py",
+      "cycles/001/reports/compare_artifacts.py",
+      "cycles/001/reports/build_experiments.py",
+      "cycles/001/reports/core.md",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json"
+    ],
+    "reason": "Frozen scientific definitions remain unchanged. Review adds separate non-fitting audit, presentation postprocessing and website script probes with local context and source links."
   },
   {
     "id": "policy-07",
     "heading": "Claims, evidence and writing style",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/claims.json",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/research/evidence.json"
+    ],
+    "reason": "Each claim has direct source/experiment/audit references, exploratory classification and limitations. The interpretation distinguishes decay intervention, negative control, descriptive comparison and post-hoc artifact checks, retaining the null/tied finding without equivalence or superiority claims."
   },
   {
     "id": "policy-08",
     "heading": "Paper",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/research/claims.json",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json"
+    ],
+    "reason": "Generated paper was inspected in Markdown and visually as rendered PNG pages; protocol-derived missing settings and copied links were repaired. Required author and AI statement are present. No scientific record was changed."
   },
   {
     "id": "policy-09",
     "heading": "README.md and paper",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/reports/experiments.md",
+      "cycles/001/reports/build_experiments.py",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json",
+      "cycles/001/reports/final.md"
+    ],
+    "reason": "README and paper contain result-derived tables and output examples for methods, baselines, controls and ablations. Review checked the saved-source consistency and final PDF presentation; no empirical scores were hand-entered."
   },
   {
     "id": "policy-10",
     "heading": "Experiment reports",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/reports/experiments.md",
+      "cycles/001/reports/experiment-regularized_s0.md",
+      "cycles/001/reports/experiment-unregularized_s0.md",
+      "cycles/001/reports/experiment-sensitivity_s0.md",
+      "cycles/001/reports/experiment-shuffled_labels_s0.md",
+      "cycles/001/reports/experiment-logistic_s0.md",
+      "cycles/001/reports/experiment-class_prior_s0.md",
+      "cycles/001/reports/preregistration.md",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/reports/final.md"
+    ],
+    "reason": "Per-experiment Markdown files, all-experiment summary, complete comparisons, method/hyperparameter rationale, plans, logs, failure history and lessons are preserved. The final report distills the outcomes and links generated scores; the reviewed PDF is present. Final regeneration and publication remain controller-owned."
   },
   {
     "id": "policy-11",
     "heading": "Visualization",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/docs/reproduction.md",
+      "cycles/001/figures/comparison-accuracy.png",
+      "cycles/001/figures/comparison-loss.png",
+      "cycles/001/figures/comparison-examples.png",
+      "cycles/001/reports/experiments.md",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json"
+    ],
+    "reason": "Architecture, accuracy, loss and output examples are available. Website source and inline-script controls were checked; browser visual and deployed-page behavior remain explicitly unverified after tool failures. No reward trajectory applies to this supervised study; deployment remains controller-owned."
   },
   {
     "id": "policy-12",
     "heading": "README.md",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "README.md",
+      "cycles/001/docs/reproduction.md",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json",
+      "cycles/001/reports/final.md"
+    ],
+    "reason": "README overview was rewritten around actual methods and bounded positive/negative findings, with links to paper, review and reproduction. Generated operational-status blocks remain historical controller snapshots, not new acceptance claims."
   },
   {
     "id": "policy-13",
     "heading": "Docs",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/docs/reproduction.md",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/reports/final.md"
+    ],
+    "reason": "The cycle docs directory contains installation, frozen definitions, execution order, non-training checks, artifact maps and regeneration instructions. Analysis links it and documents current methodological limits without duplicating the guide."
   },
   {
     "id": "policy-14",
     "heading": "Order of work",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/registration.json",
+      "cycles/001/research/core-publication.json",
+      "cycles/001/research/pilot-publication.json",
+      "cycles/001/research/experiments-audit.json",
+      "cycles/001/research/analysis-audit.json"
+    ],
+    "reason": "Controller records preserve prospective registration, core publication and pilot publication before comparisons. The matching pilot was reused, and analysis performs only non-fitting checks. This does not assert completion of later publication."
   },
   {
     "id": "policy-15",
     "heading": "Logging and comments",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/run_study.py",
+      "cycles/001/reports/logs/pilot-20261029T214009628020Z.log",
+      "cycles/001/reports/logs/experiments-20261029T214552692286Z.log",
+      "cycles/001/reports/logs/analysis-checks.log",
+      "cycles/001/reports/core.md"
+    ],
+    "reason": "Complete timestamped fixture output and check output are preserved. Existing wrappers and analysis functions explain their local/global context and sources. No scientific code was edited in analysis, and no LLM API or alternative inference path was invoked; controller inference logging remains controller-owned."
   },
   {
     "id": "policy-16",
     "heading": "Testing, debugging and code review",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/reports/core.md",
+      "cycles/001/reports/experiments.md",
+      "cycles/001/tests/test_comparisons.py",
+      "cycles/001/research/analysis-audit.json",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json"
+    ],
+    "reason": "One substantive review covers code, science, citations, reproducibility, security and presentation. Official check, full existing unit suite, wrapper check, checkpoint audit and paired analysis passed. Website attribution was repaired after a preserved test failure; no retraining."
   },
   {
     "id": "policy-17",
     "heading": "Git, GitHub and Hugging Face",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "not_applicable",
+    "evidence": [
+      "cycles/001/research/core-publication.json",
+      "cycles/001/research/pilot-publication.json"
+    ],
+    "reason": "The execution contract reserves Git state, commits, branches, PRs, repositories, uploads, model cards and publication to the controller. This phase performs no such mutation. Existing controller publication records establish earlier provenance; the final local handoff does not assert successful final remote publication."
   },
   {
     "id": "policy-18",
     "heading": "Environment and project setup",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "pyproject.toml",
+      "uv.lock",
+      "cycles/001/docs/reproduction.md",
+      "cycles/001/research/analysis-audit.json"
+    ],
+    "reason": "The existing uv project, dependency pins and reproduction instructions are retained. Checks use the explicitly supplied research interpreter; initializing or replacing its environment is unnecessary. The fixture requires no secrets or environment configuration, so no artificial .env file was added."
   },
   {
     "id": "policy-19",
     "heading": "Machine, permissions and tools",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/experiments-audit.json",
+      "cycles/001/research/analysis-audit.json",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json"
+    ],
+    "reason": "Review used only the supplied interpreter and local project artifacts, plus official web sources and installed document/UI tools. Browser automation stopped after its safety failure. No alternative model, collaborator, Git mutation or upload was invoked."
   },
   {
     "id": "policy-20",
     "heading": "README.md ocs, AGENTS.md, docs, results, paper, experiments, reports, experiment files, paper, HuggingFace card",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/claims.json",
+      "cycles/001/research/requirements.json",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/reports/build_experiments.py",
+      "cycles/001/research/analysis-audit.json",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json",
+      "cycles/001/reports/final.md",
+      "cycles/001/research/publish-audit.json"
+    ],
+    "reason": "Final report, README, reproduction instructions, claims and this checklist reconcile local training, comparisons, analysis and review. Generated status blocks retain their controller cutoff. Scientific records and failures remain preserved. Controller regeneration must retain presentation repairs; publication, final status refresh and model cards remain controller-owned."
   },
   {
     "id": "policy-21",
     "heading": "Final checks",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/research/analysis-plan.md",
+      "cycles/001/research/analysis-audit.json",
+      "cycles/001/research/claims.json",
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/research/requirements.json",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json",
+      "cycles/001/reports/final.md",
+      "cycles/001/research/publish-plan.md",
+      "cycles/001/reports/audit_publish.py",
+      "cycles/001/research/publish-audit.json"
+    ],
+    "reason": "Review and publish plans record predictions and alternatives before checks. Final reconciliation checks protected review hashes, result arithmetic, registered summary, evidence references, requirement paths and local publication copies without fitting. The required publish draft verifier is run before handoff; neither draft verification nor local completeness asserts controller acceptance or deployed-page success."
   },
   {
     "id": "policy-22",
     "heading": "Attribution and visual debugging",
-    "status": "pending",
-    "evidence": [],
-    "reason": ""
+    "status": "satisfied",
+    "evidence": [
+      "cycles/001/reports/interpretation.md",
+      "cycles/001/reports/review.md",
+      "cycles/001/research/review-audit.json",
+      "cycles/001/research/review-presentation-audit.json"
+    ],
+    "reason": "The final paper names Libor “Burny” Burian and includes the required AI statement. PDF pages were visually inspected. Website browser visual inspection could not be completed and is explicitly not claimed."
   }
 ]

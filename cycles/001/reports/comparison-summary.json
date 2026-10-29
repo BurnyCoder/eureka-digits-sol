@@ -1,0 +1,31 @@
+{
+  "analysis_kind": "exploratory",
+  "seed_order": [
+    0,
+    1,
+    2
+  ],
+  "paired_seed_differences": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "mean_difference": 0.0,
+  "seed_difference_sample_sd": 0.0,
+  "conditional_interval": [
+    0.0,
+    0.0
+  ],
+  "interpretation": "inconclusive",
+  "bootstrap_seed": 2026,
+  "bootstrap_resamples": 10000,
+  "bootstrap_distribution_unique_values": [
+    0.0
+  ],
+  "correctness_disagreements_by_seed": [
+    0,
+    0,
+    0
+  ],
+  "interval_scope": "Percentile test-example bootstrap conditional on the fitted seed set; no training-population uncertainty."
+}

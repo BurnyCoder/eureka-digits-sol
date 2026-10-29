@@ -1,0 +1,85 @@
+{
+  "analysis_kind": "exploratory",
+  "at": "2026-10-29T22:06:08.758366+00:00",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\Happy\\Documents\\projects\\auto-eureka-scientist-agent-harness\\.venv\\Scripts\\python.exe",
+        "study.py",
+        "check"
+      ],
+      "returncode": 0,
+      "output": "{\"status\": \"passed\", \"dataset_shape\": [1797, 64], \"split_sizes\": {\"train\": 1078, \"validation\": 359, \"test\": 360}}\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Happy\\Documents\\projects\\auto-eureka-scientist-agent-harness\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "output": "test_constant_harm_and_seed_sd (test_comparisons.PairedAnalysis.test_constant_harm_and_seed_sd)\nKnown constant harm detects reversed subtraction and wrong SD semantics. ... ok\ntest_identical_correctness_is_inconclusive (test_comparisons.PairedAnalysis.test_identical_correctness_is_inconclusive)\nA degenerate interval is not evidence of equivalence or benefit. ... ok\ntest_misaligned_examples_or_labels_rejected (test_comparisons.PairedAnalysis.test_misaligned_examples_or_labels_rejected)\nArithmetic without paired IDs and labels can silently mislead. ... ok\ntest_shared_examples_preserve_cross_seed_cancellation (test_comparisons.PairedAnalysis.test_shared_examples_preserve_cross_seed_cancellation)\nOpposite effects on each example cancel only if resampling stays paired. ... ok\ntest_full_stdout_stderr_and_failure_status (test_runner.RunnerContracts.test_full_stdout_stderr_and_failure_status)\nA long line and stderr must survive; nonzero exit must stay nonzero. ... ok\ntest_success_and_working_directory (test_runner.RunnerContracts.test_success_and_working_directory)\nAn argument array must preserve a path containing spaces and report success. ... ok\ntest_comparisons_require_publication (test_study.FixtureContracts.test_comparisons_require_publication)\nThe fixture refuses comparisons before the controller's publication gate. ... ok\ntest_data_boundaries_and_repeatability (test_study.FixtureContracts.test_data_boundaries_and_repeatability)\nCheck index isolation and scaling independently against the raw loader. ... ok\ntest_frozen_bytes_and_registration (test_study.FixtureContracts.test_frozen_bytes_and_registration)\nA silent edit must not invalidate the registered experiment contract. ... ok\ntest_mock_pilot_scores_validation_only (test_study.FixtureContracts.test_mock_pilot_scores_validation_only)\nDeliberately different synthetic test predictions expose a wrong split. ... ok\ntest_stale_cached_result_refuses_reuse (test_study.FixtureContracts.test_stale_cached_result_refuses_reuse)\nBoth code and protocol drift are rejected without overwriting a record. ... ok\ntest_stale_registration_refuses_fitting (test_study.FixtureContracts.test_stale_registration_refuses_fitting)\nAn invalid registration must stop execution before the model is fit. ... ok\ntest_untrained_checkpoint_round_trip (test_study.FixtureContracts.test_untrained_checkpoint_round_trip)\nExercise the real serializer on synthetic features without optimization. ... ok\ntest_valid_cached_record_is_reused_without_fitting (test_study.FixtureContracts.test_valid_cached_record_is_reused_without_fitting)\nA repair must not trigger fitting merely because a record is requested again. ... ok\ntest_wrong_input_width_rejected (test_study.FixtureContracts.test_wrong_input_width_rejected)\nDetect a configuration/data mismatch before creating a network. ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 3.380s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "C:\\Users\\Happy\\Documents\\projects\\auto-eureka-scientist-agent-harness\\.venv\\Scripts\\python.exe",
+        "run_study.py",
+        "check"
+      ],
+      "returncode": 0,
+      "output": "[2026-10-29T22:05:56.069+00:00] command=[\"C:\\\\Users\\\\Happy\\\\Documents\\\\projects\\\\auto-eureka-scientist-agent-harness\\\\.venv\\\\Scripts\\\\python.exe\", \"-u\", \"C:\\\\Users\\\\Happy\\\\Documents\\\\projects\\\\auto-eureka-scientist-agent-harness\\\\workspaces\\\\eureka-digits-sol\\\\cycles\\\\001\\\\study.py\", \"check\"] cwd=C:\\Users\\Happy\\Documents\\projects\\auto-eureka-scientist-agent-harness\\workspaces\\eureka-digits-sol\\cycles\\001\n{\"status\": \"passed\", \"dataset_shape\": [1797, 64], \"split_sizes\": {\"train\": 1078, \"validation\": 359, \"test\": 360}}\n[2026-10-29T22:06:04.233+00:00] exit=0\n"
+    }
+  ],
+  "experiment_audit_reproduced": true,
+  "primary_summary_reproduced": true,
+  "site_records_match": true,
+  "protected_sha256": {
+    "cycles\\001\\results\\class_prior_s0.json": "2407f4e1af014f78a9c8d257894ea01cb4f0bf32d3f7d2530f31bc6661578905",
+    "cycles\\001\\results\\logistic_s0.json": "e17c0db3243905c68cf446edf8fbfa79c2d0befb1f9216341e2d10061ced30de",
+    "cycles\\001\\results\\pilot_regularized_s0.json": "63225b97526bfa20fbaafe24ff54ad599334ed522a59ec63d94c3354377d6efd",
+    "cycles\\001\\results\\regularized_s0.json": "a240da038cb9c221cb3ba7d7bfaa9df169fb53e41ca6f2fa36bc1768e1d37ca2",
+    "cycles\\001\\results\\regularized_s1.json": "29aa87ee0f3c708c1ffb44537dbb2744120234f1bfd7fb47777196602ede9f3a",
+    "cycles\\001\\results\\regularized_s2.json": "78221178fd5b098eb38069a322e33dcbdab2e3ab1978712c08f30725f1e63686",
+    "cycles\\001\\results\\sensitivity_s0.json": "b0e3c20712ead38b3c77839222833747b2654f49f89f68d159f68eb352e9c2a8",
+    "cycles\\001\\results\\sensitivity_s1.json": "295b4a5d1fa091308e3e129d8ca77ecf580d0ea2184639796f38bdbc13a5af11",
+    "cycles\\001\\results\\sensitivity_s2.json": "3aa4e2d61d12ef151df3ce485607569f38481d2cb92933b0a9396ff873dfd07b",
+    "cycles\\001\\results\\shuffled_labels_s0.json": "34b3a5571df254e8af24cec9cebf4b5ab6d023421ef364bdeacb089d30d4fb72",
+    "cycles\\001\\results\\shuffled_labels_s1.json": "ccc587d2c6570579c88935c35a16d369c7b6178fd69094f205dbe5b2455421c7",
+    "cycles\\001\\results\\shuffled_labels_s2.json": "d45c9dfa1e1b724df823f2e157361f4ca001cc0925a2ed6430c0b743142223db",
+    "cycles\\001\\results\\unregularized_s0.json": "457963af210da33b70548965a72ae102c6a58d808a39428422f6f8d3c5ed308f",
+    "cycles\\001\\results\\unregularized_s1.json": "a9c63d8e00b191a5e523b1eb81efd11c20c66d8798d138a43c977735f1a0bec7",
+    "cycles\\001\\results\\unregularized_s2.json": "385961fe035d502c9f2109239947fb958688d7931eac73afabdfe8e020889ed5",
+    "cycles\\001\\models\\class_prior.npz": "69a03e6a16427f3f361001066d0aef20c645f1109ce51a744e8319065edda79a",
+    "cycles\\001\\models\\logistic.npz": "5f6f6257d4ecbc4b66f80fdc6c90bdf032a2f35a008cd2ba395db6af5d5b6c27",
+    "cycles\\001\\models\\protocol.json": "b5047a8549930ea1abedc111de1fca3f05034826805d4645473912bb5365456b",
+    "cycles\\001\\models\\README.md": "c2c65508f9cb625f73310bd6ad461f85e101518ef96828990fa04ff965dcbee7",
+    "cycles\\001\\models\\regularized-s0.safetensors": "a57cb6e24f5e7d2a3e83da8efd97233a4b7e0e5b8492f89b3cbe6064cb86cc3d",
+    "cycles\\001\\models\\regularized-s1.safetensors": "6d6004f99a91584a2ffbedc1747cf80919909f5010133568624a035d8fe6ac95",
+    "cycles\\001\\models\\regularized-s2.safetensors": "973a19ffaad8399256d974e76d6eb0ebd42f9f6a926c6fa089799968ef458537",
+    "cycles\\001\\models\\sensitivity-s0.safetensors": "d12e34e4c990874be8603a5d0ac6cb06f5648db4245afaed83ab7182cb94e220",
+    "cycles\\001\\models\\sensitivity-s1.safetensors": "3c5ae5b269a45bd5c74baf47384f13a469d5475e88be331db1510202ff14d930",
+    "cycles\\001\\models\\sensitivity-s2.safetensors": "86900e93b81224dd2bcf1413be63694a0488d16bfe7d25b1bd3e631c36bd90d3",
+    "cycles\\001\\models\\shuffled_labels-s0.safetensors": "66f8ea92d43937a7e09f420751597b3c60c560aa35ecc27aea45b21a287223dc",
+    "cycles\\001\\models\\shuffled_labels-s1.safetensors": "960a5428d49a66052acb46f8238b37f059ef37d868b7fcc082631feab864dee7",
+    "cycles\\001\\models\\shuffled_labels-s2.safetensors": "cea6d947279edfed5d90d9a1df01c0c034f06341a0435366d4b63924d4f04b66",
+    "cycles\\001\\models\\study.py": "a16454eb60949757d367bb81811a539d026eefa940575476e732e4c73cfe9358",
+    "cycles\\001\\models\\unregularized-s0.safetensors": "6e09e36eb29b0f2e691039f76708d6306dc3483e82726d6ac9f5cdf971d009f2",
+    "cycles\\001\\models\\unregularized-s1.safetensors": "865d50b44158576353bbeb744304210c29ed5642e3b9b6f4235b9e2f48395b77",
+    "cycles\\001\\models\\unregularized-s2.safetensors": "227cf9c01e4e3da3838bb3be23cea540ca1e2d4b69ebebbabc637e5ed7f3e7fe",
+    "cycles\\001\\study.py": "a16454eb60949757d367bb81811a539d026eefa940575476e732e4c73cfe9358",
+    "cycles\\001\\research\\protocol.json": "b5047a8549930ea1abedc111de1fca3f05034826805d4645473912bb5365456b",
+    "cycles\\001\\research\\registration.json": "d4a180c6296cfbcd64fde5ec74a8dfdacdb44093c4027183852b3236d35c4866"
+  },
+  "broken_local_links": [],
+  "paper_copies_match": true,
+  "primary_prediction_disagreements": [
+    0,
+    0,
+    0
+  ],
+  "no_fitting": true
+}

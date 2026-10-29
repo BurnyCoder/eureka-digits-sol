@@ -5,8 +5,8 @@
   "model_pin": "",
   "status": "running",
   "message": "",
-  "calls": 4,
-  "active_seconds": 1129.7259184000432,
+  "calls": 8,
+  "active_seconds": 2889.082397600054,
   "limits": {
     "minutes": 180.0,
     "calls": 60
@@ -18,7 +18,11 @@
   "completed_phases": [
     "research",
     "preregister",
-    "core"
+    "core",
+    "pilot",
+    "experiments",
+    "analysis",
+    "review"
   ],
   "attempts": [
     {
@@ -94,6 +98,82 @@
         "cache_write_input_tokens": 0,
         "output_tokens": 12607,
         "reasoning_output_tokens": 2520
+      },
+      "searched": true
+    },
+    {
+      "id": 5,
+      "cycle": 1,
+      "phase": "experiments",
+      "status": "accepted",
+      "started": "2026-10-29T21:44:34.787+00:00",
+      "ended": "2026-10-29T21:51:22.715+00:00",
+      "prompt_sha256": "5c9d716ff0571b34d333a6599a6f27d075c9becb238862689340927c8e0fd86e",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 1132604,
+        "cached_input_tokens": 1048832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 16740,
+        "reasoning_output_tokens": 1677
+      },
+      "searched": true
+    },
+    {
+      "id": 6,
+      "cycle": 1,
+      "phase": "analysis",
+      "status": "accepted",
+      "started": "2026-10-29T21:51:23.076+00:00",
+      "ended": "2026-10-29T21:57:02.967+00:00",
+      "prompt_sha256": "659746d5586b326b9149ca65b3910eaebc10a887f5f4dbc91cd4b2088fa15e69",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 1040963,
+        "cached_input_tokens": 956288,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 14534,
+        "reasoning_output_tokens": 2941
+      },
+      "searched": true
+    },
+    {
+      "id": 7,
+      "cycle": 1,
+      "phase": "review",
+      "status": "accepted",
+      "started": "2026-10-29T21:57:09.840+00:00",
+      "ended": "2026-10-29T22:07:26.162+00:00",
+      "prompt_sha256": "5a2d6be7458d1b40b52d1604c2933f6dbe1ce8614db259ad76042bbccd83e560",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 4310040,
+        "cached_input_tokens": 4028160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 25930,
+        "reasoning_output_tokens": 9061
+      },
+      "searched": true
+    },
+    {
+      "id": 8,
+      "cycle": 1,
+      "phase": "publish",
+      "status": "accepted",
+      "started": "2026-10-29T22:07:26.551+00:00",
+      "ended": "2026-10-29T22:13:19.587+00:00",
+      "prompt_sha256": "9d5b8229725973f0f85d5b2d1ebf469e617b3fac7e07c4567ecdf0b26ca69c32",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 1125807,
+        "cached_input_tokens": 1041408,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 13700,
+        "reasoning_output_tokens": 3952
       },
       "searched": true
     }

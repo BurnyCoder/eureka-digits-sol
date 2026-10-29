@@ -1,0 +1,20 @@
+[2026-10-29T21:53:18.768356+00:00] ["C:\\Users\\Happy\\Documents\\projects\\auto-eureka-scientist-agent-harness\\.venv\\Scripts\\python.exe", "study.py", "check"]
+{"status": "passed", "dataset_shape": [1797, 64], "split_sizes": {"train": 1078, "validation": 359, "test": 360}}
+
+exit=0
+[2026-10-29T21:53:30.814010+00:00] ["C:\\Users\\Happy\\Documents\\projects\\auto-eureka-scientist-agent-harness\\.venv\\Scripts\\python.exe", "-m", "unittest", "discover", "-s", "tests", "-p", "test_comparisons.py", "-v"]
+test_constant_harm_and_seed_sd (test_comparisons.PairedAnalysis.test_constant_harm_and_seed_sd)
+Known constant harm detects reversed subtraction and wrong SD semantics. ... ok
+test_identical_correctness_is_inconclusive (test_comparisons.PairedAnalysis.test_identical_correctness_is_inconclusive)
+A degenerate interval is not evidence of equivalence or benefit. ... ok
+test_misaligned_examples_or_labels_rejected (test_comparisons.PairedAnalysis.test_misaligned_examples_or_labels_rejected)
+Arithmetic without paired IDs and labels can silently mislead. ... ok
+test_shared_examples_preserve_cross_seed_cancellation (test_comparisons.PairedAnalysis.test_shared_examples_preserve_cross_seed_cancellation)
+Opposite effects on each example cancel only if resampling stays paired. ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.056s
+
+OK
+
+exit=0

@@ -1,5 +1,12 @@
 [
   {
+    "id": "audit-experiments-artifacts",
+    "path": "cycles/001/research/evidence-snapshots/dbf365722b783ed5e2a22e71c4334b38c645d0905d35902804191653656b47c3.json",
+    "sha256": "dbf365722b783ed5e2a22e71c4334b38c645d0905d35902804191653656b47c3",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/experiments-audit.json"
+  },
+  {
     "id": "audit-pilot-artifacts",
     "path": "cycles/001/research/evidence-snapshots/af3b06b489bb4c4b2af1eb07b67bf50713ad4efcb3663a2f971fb62be38c3fe7.json",
     "sha256": "af3b06b489bb4c4b2af1eb07b67bf50713ad4efcb3663a2f971fb62be38c3fe7",
@@ -19,5 +26,47 @@
     "sha256": "8106e18b577721025dbec09e32d09e359826e0b9067e6a104113c7b38e228297",
     "analysis_kind": "exploratory",
     "original_path": "cycles/001/research/core-checks.json"
+  },
+  {
+    "id": "audit-analysis-consistency",
+    "path": "cycles/001/research/evidence-snapshots/c49f2c2329145973a296ad6d209b5a91f200d17cd0086044829090d946c524b7.json",
+    "sha256": "c49f2c2329145973a296ad6d209b5a91f200d17cd0086044829090d946c524b7",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/analysis-audit.json"
+  },
+  {
+    "id": "audit-review-initial",
+    "path": "cycles/001/research/evidence-snapshots/7751f0be7f0374b9ebf5ee622fa7bfd6d81e47f15a60a67706df515493b055ea.json",
+    "sha256": "7751f0be7f0374b9ebf5ee622fa7bfd6d81e47f15a60a67706df515493b055ea",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-initial-audit.json"
+  },
+  {
+    "id": "audit-review-artifacts",
+    "path": "cycles/001/research/evidence-snapshots/d92afab9bc7694d7360231ef34b532cbce2c845fa4e70f634f707fa55fa97b20.json",
+    "sha256": "d92afab9bc7694d7360231ef34b532cbce2c845fa4e70f634f707fa55fa97b20",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-audit.json"
+  },
+  {
+    "id": "audit-review-site",
+    "path": "cycles/001/research/evidence-snapshots/4cc62fac5a4973012a30c4e57bed0d0afb64f45b97a5a218a05afa257b8653b8.json",
+    "sha256": "4cc62fac5a4973012a30c4e57bed0d0afb64f45b97a5a218a05afa257b8653b8",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-site-test.json"
+  },
+  {
+    "id": "audit-review-presentation",
+    "path": "cycles/001/research/evidence-snapshots/f6ab307705c6b2dd378d713d6224f12787ce4c8c6521c260f81d48ac4ada8757.json",
+    "sha256": "f6ab307705c6b2dd378d713d6224f12787ce4c8c6521c260f81d48ac4ada8757",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/review-presentation-audit.json"
+  },
+  {
+    "id": "audit-publish-consistency",
+    "path": "cycles/001/research/evidence-snapshots/e441a3cd06449a96e6615f809988fcfdf9875b309ab7d1f47ac922f01a9aa71b.json",
+    "sha256": "e441a3cd06449a96e6615f809988fcfdf9875b309ab7d1f47ac922f01a9aa71b",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/publish-audit.json"
   }
 ]

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "claim-decay-tie",
+    "text": "In every registered paired fitted instance, the primary decay intervention and zero-decay ablation have identical test correctness vectors despite different saved model parameters. The registered conditional example-bootstrap analysis is inconclusive: the predicted positive accuracy benefit was not observed.",
+    "analysis_kind": "exploratory",
+    "evidence": ["regularized_s0", "regularized_s1", "regularized_s2", "unregularized_s0", "unregularized_s1", "unregularized_s2", "audit-experiments-artifacts", "src-bootstrap"],
+    "limitations": [
+      "This is a decay intervention within AdamW, not a comparison between optimizers or with an L2 loss penalty.",
+      "The degenerate interval follows from identical observed correctness differences; it does not establish equivalence, a universal null, or uncertainty over future training runs.",
+      "Prior outcomes were known. The fixed example split does not establish generalization to new writers or datasets; probabilities and behavior outside the scored examples were not compared."
+    ]
+  },
+  {
+    "id": "claim-local-sensitivity",
+    "text": "The registered weaker-decay sensitivity arm has the same test accuracy as both primary arms within each registered seed. This local coefficient check found no accuracy advantage among the supplied decay settings.",
+    "analysis_kind": "exploratory",
+    "evidence": ["sensitivity_s0", "sensitivity_s1", "sensitivity_s2", "regularized_s0", "regularized_s1", "regularized_s2", "unregularized_s0", "unregularized_s1", "unregularized_s2"],
+    "limitations": [
+      "Equal accuracy does not imply equal individual predictions, confidence, calibration or behavior on other examples.",
+      "The supplied coefficient sensitivity is descriptive, not a search for an optimum or a test of architecture, learning rate, training duration or split sensitivity."
+    ]
+  },
+  {
+    "id": "claim-controls-and-baseline",
+    "text": "Every real-label neural result and the penalized logistic baseline exceed every shuffled-label result and the constant training-majority baseline on the fixed test split. Logistic accuracy is descriptively below every real-label neural result, while providing a useful simple baseline.",
+    "analysis_kind": "exploratory",
+    "evidence": ["regularized_s0", "regularized_s1", "regularized_s2", "unregularized_s0", "unregularized_s1", "unregularized_s2", "sensitivity_s0", "sensitivity_s1", "sensitivity_s2", "shuffled_labels_s0", "shuffled_labels_s1", "shuffled_labels_s2", "logistic_s0", "class_prior_s0", "src-logistic"],
+    "limitations": [
+      "These are descriptive fitted-instance comparisons; no registered inferential superiority or theoretical chance test was performed for these contrasts.",
+      "Poor shuffled-label generalization narrows some gross label or scoring failures but cannot certify absence of leakage, related examples or writer dependence.",
+      "The majority predictor is deterministic, not random class sampling; the logistic model is regularized, not the zero-decay neural ablation."
+    ]
+  },
+  {
+    "id": "claim-local-artifact-usability",
+    "text": "The full supplied comparison matrix has saved predictions and locally usable checkpoints that passed scoped split, label, arithmetic, provenance, history/log and reload checks. The matching final regularized arm reused the controller-published pilot checkpoint. The analysis consistency audit reproduced the existing audit and registered primary summary without fitting or rendering.",
+    "analysis_kind": "exploratory",
+    "evidence": ["pilot_regularized_s0", "audit-pilot-artifacts", "audit-experiments-artifacts", "audit-analysis-consistency", "src-reproducibility"],
+    "limitations": [
+      "Passing these checks is evidence for this local execution, not a proof against all bugs or a claim of model, provider or harness superiority.",
+      "Reload verification does not establish cross-platform bitwise reproducibility, exact interrupted-training resumption or independent reproduction from a fresh environment.",
+      "Pilot scoring used validation labels, but reload verification forwarded test features. Controller publication and later review are separate from these local checks."
+    ]
+  }
+]

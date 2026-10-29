@@ -1,0 +1,35 @@
+test_constant_harm_and_seed_sd (test_comparisons.PairedAnalysis.test_constant_harm_and_seed_sd)
+Known constant harm detects reversed subtraction and wrong SD semantics. ... ok
+test_identical_correctness_is_inconclusive (test_comparisons.PairedAnalysis.test_identical_correctness_is_inconclusive)
+A degenerate interval is not evidence of equivalence or benefit. ... ok
+test_misaligned_examples_or_labels_rejected (test_comparisons.PairedAnalysis.test_misaligned_examples_or_labels_rejected)
+Arithmetic without paired IDs and labels can silently mislead. ... ok
+test_shared_examples_preserve_cross_seed_cancellation (test_comparisons.PairedAnalysis.test_shared_examples_preserve_cross_seed_cancellation)
+Opposite effects on each example cancel only if resampling stays paired. ... ok
+test_full_stdout_stderr_and_failure_status (test_runner.RunnerContracts.test_full_stdout_stderr_and_failure_status)
+A long line and stderr must survive; nonzero exit must stay nonzero. ... ok
+test_success_and_working_directory (test_runner.RunnerContracts.test_success_and_working_directory)
+An argument array must preserve a path containing spaces and report success. ... ok
+test_comparisons_require_publication (test_study.FixtureContracts.test_comparisons_require_publication)
+The fixture refuses comparisons before the controller's publication gate. ... ok
+test_data_boundaries_and_repeatability (test_study.FixtureContracts.test_data_boundaries_and_repeatability)
+Check index isolation and scaling independently against the raw loader. ... ok
+test_frozen_bytes_and_registration (test_study.FixtureContracts.test_frozen_bytes_and_registration)
+A silent edit must not invalidate the registered experiment contract. ... ok
+test_mock_pilot_scores_validation_only (test_study.FixtureContracts.test_mock_pilot_scores_validation_only)
+Deliberately different synthetic test predictions expose a wrong split. ... ok
+test_stale_cached_result_refuses_reuse (test_study.FixtureContracts.test_stale_cached_result_refuses_reuse)
+Both code and protocol drift are rejected without overwriting a record. ... ok
+test_stale_registration_refuses_fitting (test_study.FixtureContracts.test_stale_registration_refuses_fitting)
+An invalid registration must stop execution before the model is fit. ... ok
+test_untrained_checkpoint_round_trip (test_study.FixtureContracts.test_untrained_checkpoint_round_trip)
+Exercise the real serializer on synthetic features without optimization. ... ok
+test_valid_cached_record_is_reused_without_fitting (test_study.FixtureContracts.test_valid_cached_record_is_reused_without_fitting)
+A repair must not trigger fitting merely because a record is requested again. ... ok
+test_wrong_input_width_rejected (test_study.FixtureContracts.test_wrong_input_width_rejected)
+Detect a configuration/data mismatch before creating a network. ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 3.273s
+
+OK

@@ -1,0 +1,26 @@
+{
+  "analysis_kind": "exploratory",
+  "at": "2026-10-29T22:11:39.726016+00:00",
+  "protected_review_hashes_match": true,
+  "primary_summary_reproduced": true,
+  "record_accuracy_reproduced": true,
+  "claim_references_resolve": true,
+  "evidence_hashes_match": true,
+  "requirement_paths_exist": true,
+  "site_records_match": true,
+  "reviewed_pdf_hashes_match": true,
+  "local_document_links_exist": true,
+  "final_table_generated_from_results": true,
+  "no_fitting": true,
+  "browser_visual_check_performed": false,
+  "remote_publication_checked": false,
+  "canonical_check": {
+    "argv": [
+      "C:\\Users\\Happy\\Documents\\projects\\auto-eureka-scientist-agent-harness\\.venv\\Scripts\\python.exe",
+      "study.py",
+      "check"
+    ],
+    "returncode": 0,
+    "output": "{\"status\": \"passed\", \"dataset_shape\": [1797, 64], \"split_sizes\": {\"train\": 1078, \"validation\": 359, \"test\": 360}}\n"
+  }
+}

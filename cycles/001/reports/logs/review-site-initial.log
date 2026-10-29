@@ -1,0 +1,11 @@
+AssertionError [ERR_ASSERTION]: Examples must identify the displayed run
+    at verify (C:\Users\Happy\Documents\projects\auto-eureka-scientist-agent-harness\workspaces\eureka-digits-sol\cycles\001\reports\test_site.cjs:34:23)
+    at check (C:\Users\Happy\Documents\projects\auto-eureka-scientist-agent-harness\workspaces\eureka-digits-sol\cycles\001\reports\test_site.cjs:36:3)
+    at async C:\Users\Happy\Documents\projects\auto-eureka-scientist-agent-harness\workspaces\eureka-digits-sol\cycles\001\reports\test_site.cjs:53:135 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
