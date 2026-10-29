@@ -1,0 +1,138 @@
+[
+  {
+    "id": "src-python-unittest",
+    "title": "Python 3.14 unittest: discovery, assertions and isolated fixtures",
+    "url": "https://docs.python.org/3.14/library/unittest.html",
+    "summary": "Read test discovery and TestCase guidance for the non-training core regression suite. Tests use temporary roots and mocks to avoid writing synthetic records into study results. No external implementation was copied.",
+    "license": "unknown (documentation; no source implementation copied)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-python-subprocess",
+    "title": "Python 3.14 subprocess: argv sequences, pipes and process status",
+    "url": "https://docs.python.org/3.14/library/subprocess.html",
+    "summary": "Read argument-array, Popen context manager, merged stderr/stdout and exit-status documentation. Supports the small no-shell streaming runner. Text mode normalizes line endings; logs preserve complete textual output rather than byte-identical terminal streams. No external implementation was copied.",
+    "license": "unknown (documentation; no source implementation copied)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-adamw-paper",
+    "title": "Decoupled Weight Decay Regularization — Loshchilov and Hutter, ICLR 2019",
+    "url": "https://arxiv.org/abs/1711.05101",
+    "summary": "Read the abstract and PDF Algorithm 2. Decoupled decay bypasses Adam's gradient moments; the paper's image-classification evidence does not imply a benefit for this fixed digits MLP. Full text: https://arxiv.org/pdf/1711.05101 .",
+    "license": "arXiv non-exclusive distribution license; not a general code reuse license",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-adamw-code",
+    "title": "AdamW-and-SGDW original implementation and license",
+    "url": "https://github.com/loshchil/AdamW-and-SGDW",
+    "summary": "Read README, UPDATETORCHFILES/adam.lua and LICENSE. The Lua implementation distinguishes gradient-penalty Adam from a separate shrinkage update using xold and weightDecaycurrent. Its normalized decay configuration is not numerically interchangeable with PyTorch's coefficient. No code copied. Raw implementation: https://raw.githubusercontent.com/loshchil/AdamW-and-SGDW/master/UPDATETORCHFILES/adam.lua ; license: https://raw.githubusercontent.com/loshchil/AdamW-and-SGDW/master/LICENSE .",
+    "license": "BSD-3-Clause (repository LICENSE, copyright Xavier Gastaldi)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-torch-adamw",
+    "title": "PyTorch AdamW API and algorithm, version 2.14",
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.optim.AdamW.html",
+    "summary": "Read constructor and update equations. Shrinkage is theta <- theta - lr*weight_decay*theta, separate from moments of the objective gradient. Use this installed-version family rather than the moving stable alias, which currently redirects to a newer release. Documentation license was not checked.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-digits-loader",
+    "title": "scikit-learn load_digits API",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+    "summary": "Read dataset description and return values. The bundled data are the original UCI test subset, with flattened small digit images and bounded integer pixel values. This is not MNIST or the full UCI dataset. Supports fixed division by the documented pixel maximum.",
+    "license": "unknown (documentation); dataset licensing is recorded separately in src-uci-digits",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-uci-digits",
+    "title": "Optical Recognition of Handwritten Digits — UCI, Alpaydin and Kaynak",
+    "url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "summary": "Read dataset information, original writer-separated construction and license. Block counts form the input features. The original train/test writer separation is not preserved by randomly repartitioning only the scikit-learn subset. Dataset DOI: https://doi.org/10.24432/C50P49 .",
+    "license": "CC BY 4.0 (dataset page)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-splits",
+    "title": "scikit-learn train_test_split API",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html",
+    "summary": "Read test_size, random_state and stratify definitions. Integer random_state fixes shuffling; stratify uses the supplied class labels. Stratification preserves class representation, not separation by writer identity or absence of near-duplicates.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-logistic",
+    "title": "scikit-learn LogisticRegression API",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html",
+    "summary": "Read regularization, solver, C and random_state definitions. Default lbfgs fits penalized multinomial classification; finite C controls inverse regularization strength. random_state has no effect for lbfgs. This is a meaningful simple linear baseline, not an unregularized neural ablation.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-bootstrap",
+    "title": "SciPy bootstrap API: paired resampling and interval definitions",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
+    "summary": "Read paired and interval-method definitions. Paired resampling uses the same sampled indices across arrays. This supports the protocol's matched-example construction; it does not supply training-seed uncertainty. SciPy defaults to BCa, so its default is not a drop-in specification for a percentile analysis.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-reproducibility",
+    "title": "PyTorch reproducibility notes, version 2.14",
+    "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+    "summary": "Read RNG and deterministic-algorithm guidance. Control Python, NumPy and torch randomness, including separate Generator objects. Identical seeds do not guarantee identical results across releases, platforms or CPU/GPU. Preserve software and hardware provenance.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-nanda-process",
+    "title": "How I Think About My Research Process: Explore, Understand, Distill — Neel Nanda",
+    "url": "https://www.alignmentforum.org/posts/hjMy4ZxS5ogA9cTYK/how-i-think-about-my-research-process-explore-understand",
+    "summary": "Read the primary post linked from the requested sequence https://www.alignmentforum.org/s/5GT3yoYM9gRmMEKqL . Distinguishes information gathering from hypothesis testing; recommends highlights, efficient feedback, explicit alternatives and concise defensible claims. Writing may expose gaps and justify returning to exploration.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-lones-pitfalls",
+    "title": "How to avoid machine learning pitfalls: a guide for academic researchers — Michael A. Lones",
+    "url": "https://arxiv.org/html/2108.02497v5",
+    "summary": "Read evaluation and comparison guidance in the full text, especially meaningful baselines, multiple evaluations and test-data isolation. Supports treating a fixed-split engineering replication narrowly and separating fitted-instance comparisons from broader claims about learning algorithms. This guide is methodological advice, not empirical evidence for a digits decay benefit.",
+    "license": "unknown",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-prior-haiku",
+    "title": "eureka-digits-haiku prior supplied-fixture execution",
+    "url": "https://github.com/BurnyCoder/eureka-digits-haiku",
+    "summary": "Read repository README as prior evidence of the same fixed-study workflow. It links saved experiments, protocol and publication history. Status language includes historical cutoff material; consult src-haiku-disclosure rather than inferring a current phase count from the README. Not evidence of provider superiority.",
+    "license": "MIT (GitHub repository license identification)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-prior-luna",
+    "title": "eureka-digits-luna prior supplied-fixture execution",
+    "url": "https://github.com/BurnyCoder/eureka-digits-luna",
+    "summary": "Read repository README. It describes an inconclusive primary comparison and provenance repairs after the bounded run. The present run has prior-result exposure; these external observations must not be substituted for new local measurements or construed as an agent ranking.",
+    "license": "MIT (GitHub repository license identification)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-haiku-disclosure",
+    "title": "Haiku historical cutoff and subsequent publication disclosure",
+    "url": "https://github.com/BurnyCoder/eureka-digits-haiku/blob/main/reports/post-run-publication.md",
+    "summary": "Read raw primary disclosure. It distinguishes original cutoff from authorized continuation, retains unsuccessful drafts and corrects excessive pilot isolation wording. Test features were forwarded during reload checking; pilot scoring and model fitting did not use test labels. Raw read: https://raw.githubusercontent.com/BurnyCoder/eureka-digits-haiku/main/reports/post-run-publication.md .",
+    "license": "MIT (repository)",
+    "accessed_at": "2026-10-29"
+  },
+  {
+    "id": "src-luna-disclosure",
+    "title": "Luna post-publication provenance audit disclosure",
+    "url": "https://github.com/BurnyCoder/eureka-digits-luna/blob/main/reports/post-run-publication.md",
+    "summary": "Read raw primary disclosure. Line-ending conversion and regenerated documents invalidated accepted hashes; historical bytes were recovered. Documents controller repairs separately from autonomous work and warns against provider rankings. Raw read: https://raw.githubusercontent.com/BurnyCoder/eureka-digits-luna/main/reports/post-run-publication.md .",
+    "license": "MIT (repository)",
+    "accessed_at": "2026-10-29"
+  }
+]

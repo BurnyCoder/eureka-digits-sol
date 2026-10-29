@@ -1,0 +1,122 @@
+{
+  "src-adamw-paper": {
+    "url": "https://arxiv.org/abs/1711.05101",
+    "final_url": "https://arxiv.org/abs/1711.05101",
+    "ok": true,
+    "at": "2026-10-29T21:23:26.413+00:00",
+    "sha256": "e2402d8869fa233343b46661f47048b352b804d0c3e834fc83bb9bb2810377c8",
+    "sample_bytes": 43412
+  },
+  "src-adamw-code": {
+    "url": "https://github.com/loshchil/AdamW-and-SGDW",
+    "final_url": "https://github.com/loshchil/AdamW-and-SGDW",
+    "ok": true,
+    "at": "2026-10-29T21:23:27.187+00:00",
+    "sha256": "3ee697651d23029651093dd0fcf6e8ad8f7394e1fb8bcfca345816bc1ac3cea2",
+    "sample_bytes": 264741
+  },
+  "src-torch-adamw": {
+    "url": "https://docs.pytorch.org/docs/2.14/generated/torch.optim.AdamW.html",
+    "final_url": "https://docs.pytorch.org/docs/2.14/generated/torch.optim.AdamW.html",
+    "ok": true,
+    "at": "2026-10-29T21:23:27.485+00:00",
+    "sha256": "f1ed7bc53494075fe8ee9189704f45a21c65ce306ea6751335098164bc7160c9",
+    "sample_bytes": 278692
+  },
+  "src-digits-loader": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+    "ok": true,
+    "at": "2026-10-29T21:23:27.789+00:00",
+    "sha256": "4fd1b457c1af7eff41cca4d63c93c1a14e49fa29e9ba4d771426aa6759c42b9b",
+    "sample_bytes": 135574
+  },
+  "src-uci-digits": {
+    "url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "final_url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "ok": true,
+    "at": "2026-10-29T21:23:29.949+00:00",
+    "sha256": "c5e195f64d05125e83dee6d4c655e621c544c85ed914dda7a5a02fcc86fc85db",
+    "sample_bytes": 131722
+  },
+  "src-splits": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html",
+    "ok": true,
+    "at": "2026-10-29T21:23:30.261+00:00",
+    "sha256": "875fc7ad0dbc0323f1724bc9bb7271513c0b9bfafeaeb8d6cbb305f6db4b114d",
+    "sample_bytes": 174897
+  },
+  "src-logistic": {
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html",
+    "final_url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html",
+    "ok": true,
+    "at": "2026-10-29T21:23:30.507+00:00",
+    "sha256": "45040ee70608b8feae4b8ebcd450eec89fbf4950ddb99ae1c90499e1231bc108",
+    "sample_bytes": 204758
+  },
+  "src-bootstrap": {
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
+    "final_url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
+    "ok": true,
+    "at": "2026-10-29T21:23:31.107+00:00",
+    "sha256": "681a10622e6fa1520fea015ed884e53272ca26d8be1029ab536059d926a52477",
+    "sample_bytes": 76486
+  },
+  "src-reproducibility": {
+    "url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+    "final_url": "https://docs.pytorch.org/docs/2.14/notes/randomness.html",
+    "ok": true,
+    "at": "2026-10-29T21:23:31.434+00:00",
+    "sha256": "a2f6f8e6214edf6a1ad54a82e905371b0b3147caeb030a3257926d2b8371bf13",
+    "sample_bytes": 201388
+  },
+  "src-nanda-process": {
+    "url": "https://www.alignmentforum.org/posts/hjMy4ZxS5ogA9cTYK/how-i-think-about-my-research-process-explore-understand",
+    "final_url": "https://www.alignmentforum.org/posts/hjMy4ZxS5ogA9cTYK/how-i-think-about-my-research-process-explore-understand",
+    "ok": true,
+    "at": "2026-10-29T21:23:32.098+00:00",
+    "sha256": "3fe63441696b5e9898c94aeea4fc2f7e5044b4efbb628efd4296f68a2fb93ac5",
+    "sample_bytes": 536216
+  },
+  "src-lones-pitfalls": {
+    "url": "https://arxiv.org/html/2108.02497v5",
+    "final_url": "https://arxiv.org/html/2108.02497v5",
+    "ok": true,
+    "at": "2026-10-29T21:23:32.208+00:00",
+    "sha256": "1f8913261e03183d554fa5cf30866c687bae1c8a70a3f9d4a929de295eef83bf",
+    "sample_bytes": 226161
+  },
+  "src-prior-haiku": {
+    "url": "https://github.com/BurnyCoder/eureka-digits-haiku",
+    "final_url": "https://github.com/BurnyCoder/eureka-digits-haiku",
+    "ok": true,
+    "at": "2026-10-29T21:23:32.845+00:00",
+    "sha256": "9a60f8e5c5dfe818c185e5ad72b49557c6e97e549cb40b8ea2ff8b285d379b17",
+    "sample_bytes": 243742
+  },
+  "src-prior-luna": {
+    "url": "https://github.com/BurnyCoder/eureka-digits-luna",
+    "final_url": "https://github.com/BurnyCoder/eureka-digits-luna",
+    "ok": true,
+    "at": "2026-10-29T21:23:33.593+00:00",
+    "sha256": "463bdb6f73de259323c39185a6b2a0873859c8d99d5aa41a691c8a6be232ecbe",
+    "sample_bytes": 246537
+  },
+  "src-haiku-disclosure": {
+    "url": "https://github.com/BurnyCoder/eureka-digits-haiku/blob/main/reports/post-run-publication.md",
+    "final_url": "https://github.com/BurnyCoder/eureka-digits-haiku/blob/main/reports/post-run-publication.md",
+    "ok": true,
+    "at": "2026-10-29T21:23:34.120+00:00",
+    "sha256": "66894d02a22d8cd17eff86d13da4dffdab9b1307b605d49b789c6481c8886ab5",
+    "sample_bytes": 188929
+  },
+  "src-luna-disclosure": {
+    "url": "https://github.com/BurnyCoder/eureka-digits-luna/blob/main/reports/post-run-publication.md",
+    "final_url": "https://github.com/BurnyCoder/eureka-digits-luna/blob/main/reports/post-run-publication.md",
+    "ok": true,
+    "at": "2026-10-29T21:23:34.731+00:00",
+    "sha256": "e8d68ca702243c77c27a89f51b2e79b48d6af79387e56fc4512e69c65bb9cf25",
+    "sample_bytes": 185702
+  }
+}
