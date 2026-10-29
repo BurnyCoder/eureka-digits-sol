@@ -3,10 +3,10 @@
   "backend": "codex",
   "requested_model": "gpt-6.1-sol",
   "model_pin": "",
-  "status": "blocked",
-  "message": "Reviewed output changed before snapshot: audit-core-checks",
-  "calls": 3,
-  "active_seconds": 808.8270804000203,
+  "status": "running",
+  "message": "",
+  "calls": 4,
+  "active_seconds": 1129.7259184000432,
   "limits": {
     "minutes": 180.0,
     "calls": 60
@@ -17,7 +17,8 @@
   "policy_sha256": "6a9addc31e8fe730400c32e935c1a62fc7b9f12b615a997f84c0e6025cd3e922",
   "completed_phases": [
     "research",
-    "preregister"
+    "preregister",
+    "core"
   ],
   "attempts": [
     {
@@ -74,6 +75,25 @@
         "cache_write_input_tokens": 0,
         "output_tokens": 14805,
         "reasoning_output_tokens": 2799
+      },
+      "searched": true
+    },
+    {
+      "id": 4,
+      "cycle": 1,
+      "phase": "pilot",
+      "status": "accepted",
+      "started": "2026-10-29T21:38:52.797+00:00",
+      "ended": "2026-10-29T21:44:00.033+00:00",
+      "prompt_sha256": "a204e47f7d9faeacf5a2f434f5781dd6cdbec920532224c5477ac1f34d3dbe6e",
+      "models": [],
+      "model_identity_status": "not exposed by CLI; requested identifier only",
+      "usage": {
+        "input_tokens": 1029615,
+        "cached_input_tokens": 949504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 12607,
+        "reasoning_output_tokens": 2520
       },
       "searched": true
     }
