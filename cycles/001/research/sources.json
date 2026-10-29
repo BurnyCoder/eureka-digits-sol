@@ -1,5 +1,13 @@
 [
   {
+    "id": "src-matplotlib-plot",
+    "title": "Matplotlib Axes.plot API",
+    "url": "https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.plot.html",
+    "summary": "Read explicit x/y line plotting guidance for the complete unsmoothed pilot train/validation loss histories. The reporting script uses installed plotting APIs and copies no external implementation.",
+    "license": "unknown (documentation; no implementation copied)",
+    "accessed_at": "2026-10-29"
+  },
+  {
     "id": "src-python-unittest",
     "title": "Python 3.14 unittest: discovery, assertions and isolated fixtures",
     "url": "https://docs.python.org/3.14/library/unittest.html",

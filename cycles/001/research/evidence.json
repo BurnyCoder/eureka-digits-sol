@@ -1,5 +1,12 @@
 [
   {
+    "id": "audit-pilot-artifacts",
+    "path": "cycles/001/research/evidence-snapshots/af3b06b489bb4c4b2af1eb07b67bf50713ad4efcb3663a2f971fb62be38c3fe7.json",
+    "sha256": "af3b06b489bb4c4b2af1eb07b67bf50713ad4efcb3663a2f971fb62be38c3fe7",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/research/pilot-audit.json"
+  },
+  {
     "id": "audit-fixture-source",
     "path": "cycles/001/research/evidence-snapshots/a16454eb60949757d367bb81811a539d026eefa940575476e732e4c73cfe9358.py",
     "sha256": "a16454eb60949757d367bb81811a539d026eefa940575476e732e4c73cfe9358",

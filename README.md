@@ -19,6 +19,23 @@ flowchart LR
   R --> A[Later paired analysis]
 ```
 
-Core provides non-training regression checks and a wrapper that preserves complete timestamped console logs. No local model training or predictive results have been produced yet. The project uses Python, NumPy, scikit-learn, PyTorch, safetensors and standard-library tests; dependency versions are in [pyproject.toml](pyproject.toml).
+Core provides non-training regression checks and a wrapper that preserves complete timestamped console logs. The initial validation pilot has now trained and passed independent artifact checks. Its [report](cycles/001/reports/pilot.md) contains the generated score table, complete loss plot, configuration, predictions, checkpoint provenance and interpretation. The decay contrast and controls remain untested. The project uses Python, NumPy, scikit-learn, PyTorch, safetensors, Matplotlib and standard-library tests; dependency versions are in [pyproject.toml](pyproject.toml).
+
+![Initial pilot loss history](cycles/001/figures/pilot-loss.png)
 
 Follow [docs/reproduction.md](cycles/001/docs/reproduction.md) for installation, the supplied interpreter, checks, method definitions, artifact locations and later phase commands. The controller owns commits and publication. The pilot must be published before comparative training. Prior-result exposure and the random example split limit this execution to exploratory conclusions.
+
+
+<!-- EUREKA:RESULTS:START -->
+## Recorded results
+
+Recorded harness status: **running**; 3 operational phases accepted. Measurements below do not imply completion of unaccepted phases.
+
+| Experiment | Method | Seed | Split | Accuracy | Seconds | Device |
+|---|---|---:|---|---:|---:|---|
+| pilot_regularized_s0 | regularized | 0 | validation | 0.966574 | 6.083 | cuda |
+
+The registered primary comparison is pending; no confirmatory conclusion is available.
+
+See [full report](cycles/001/reports/summary.md).
+<!-- EUREKA:RESULTS:END -->
