@@ -1,0 +1,9 @@
+[
+  {
+    "id": "audit-fixture-source",
+    "path": "cycles/001/research/evidence-snapshots/a16454eb60949757d367bb81811a539d026eefa940575476e732e4c73cfe9358.py",
+    "sha256": "a16454eb60949757d367bb81811a539d026eefa940575476e732e4c73cfe9358",
+    "analysis_kind": "exploratory",
+    "original_path": "cycles/001/study.py"
+  }
+]
